@@ -1,4 +1,4 @@
-# 🎨 Albedo God Theme
+﻿# 🎨 Albedo God Theme
 
 A sophisticated BetterDiscord theme inspired by the Albedo/Nazarick aesthetic with deep purples, glass-morphism effects, and elegant transparency.
 
@@ -21,7 +21,7 @@ A sophisticated BetterDiscord theme inspired by the Albedo/Nazarick aesthetic wi
 
 2. **Activate the theme:**
    - Open Discord
-   - Go to **User Settings** → **BetterDiscord** → **Themes**
+   - Go to **User Settings** → **BetterDiscord** → **Themes`
    - Find and enable **Albedo God Theme**
 
 3. **Reload if needed:**
