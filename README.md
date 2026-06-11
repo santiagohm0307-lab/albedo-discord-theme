@@ -1,5 +1,7 @@
 ﻿# 👑 Albedo Discord Theme
-
+<p align="center">
+  <img src="assets/reference-mockup.png" alt="Preview" width="1000">
+</p>
 
   Tema personalizado para Discord inspirado en Albedo (Overlord), diseñado para transformar completamente la interfaz mediante CSS, transparencias, efectos glow y una estética oscura basada en tonos púrpura.
 </p>
@@ -26,15 +28,6 @@ Más allá de cambiar colores o añadir una imagen de fondo, el objetivo fue con
 - Mejor integración visual entre paneles.
 - Compatibilidad con BetterDiscord y ClearVision.
 
----
-
-## 🖼️ Vista previa
-
-### Interfaz principal
-
-<p align="center">
-  <img src="assets/reference-mockup.png" alt="Preview" width="1000">
-</p>
 
 ---
 
