@@ -1,124 +1,165 @@
-﻿# 🎨 Albedo God Theme
+﻿# 👑 Albedo Discord Theme
 
-A sophisticated BetterDiscord theme inspired by the Albedo/Nazarick aesthetic with deep purples, glass-morphism effects, and elegant transparency.
 
-## ✨ Features
-
-- **Glassmorphism Design**: Premium frosted glass panels with subtle blur effects
-- **Neon Accents**: Deep purple and pink neon highlights
-- **Transparent Layers**: Wallpaper visible through UI with adjustable opacity
-- **ClearVision Compatible**: Based on ClearVision-v7 transparency engine
-- **Fully Customizable**: Easy-to-modify CSS variables in `:root`
-- **Dark Theme**: Elegant moody aesthetic optimized for dark mode
-
-## 📦 Installation
-
-### For BetterDiscord Users:
-
-1. **Copy the theme files:**
-   - Copy `Albedo.theme.css` to your BetterDiscord themes folder
-   - Copy the entire `assets/` folder alongside the CSS file
-
-2. **Activate the theme:**
-   - Open Discord
-   - Go to **User Settings** → **BetterDiscord** → **Themes`
-   - Find and enable **Albedo God Theme**
-
-3. **Reload if needed:**
-   - Press `Ctrl+R` to reload Discord if the background doesn't appear
-
-### Theme File Location:
-- **Windows**: `%APPDATA%\BetterDiscord\themes`
-- **macOS**: `~/Library/Application Support/BetterDiscord/themes`
-- **Linux**: `~/.config/BetterDiscord/themes`
-
-## 🎨 Customization
-
-Edit `Albedo.theme.css` and modify the CSS variables in the `:root` section:
-
-```css
-:root {
-  /* Main Colors */
-  --main-color: #8d25ff;           /* Primary purple */
-  --hover-color: #b12dff;          /* Hover state */
-  --focus-color: #cda5ff;          /* Focus highlight */
-  
-  /* Custom Variables */
-  --albedo-black: #03020a;
-  --albedo-blur: 10px;
-  /* ... modify as needed */
-}
-```
-
-### Popular Customizations:
-
-- **Change main color**: Modify `--main-color` and related color variables
-- **Adjust blur effect**: Change `--albedo-blur` value (in pixels)
-- **Modify transparency**: Adjust `rgba()` opacity values
-- **Change background**: Replace `assets/albedo-bg.png` with your image
-
-## 📋 File Structure
-
-```
-.
-├── Albedo.theme.css          # Main theme file (use this)
-├── README.md                 # This file
-├── assets/
-│   ├── albedo-bg.png         # Background image
-│   └── reference-mockup.png   # Style reference
-└── .gitignore               # Git configuration
-```
-
-## 🔧 Requirements
-
-- **BetterDiscord** plugin for Discord
-- Discord (any version supported by BetterDiscord)
-- Modern browser/Electron version (for CSS features)
-
-## 📝 Notes
-
-- The theme uses relative paths for assets, so keep `Albedo.theme.css` and the `assets/` folder together
-- For best results, use with Discord's dark theme
-- Some Discord updates may require CSS class adjustments
-- The ClearVision library is imported via CDN for transparency effects
-
-## 🐛 Troubleshooting
-
-**Theme not appearing?**
-- Ensure file ends with `.theme.css`
-- Check that `assets/` folder is in the same directory as the CSS file
-- Restart Discord completely (not just reload)
-- Verify BetterDiscord is properly installed
-
-**Background not showing?**
-- Press `Ctrl+R` in Discord to reload
-- Check that `assets/albedo-bg.png` exists
-- Verify relative paths are correct in CSS
-
-**Colors not updating?**
-- Clear BetterDiscord cache
-- Restart Discord
-- Check for conflicting CSS selectors in other installed plugins
-
-## 📜 License
-
-This project is provided as-is for personal use with BetterDiscord.
-
-## 🙏 Credits
-
-- Inspired by ClearVision theme architecture
-- Based on Albedo/Nazarick aesthetic design
-- Built for the BetterDiscord community
-
-## 💬 Support
-
-For issues or questions:
-1. Check the troubleshooting section above
-2. Review the CSS variables in `:root`
-3. Ensure all files are in the correct locations
-4. Consider clearing Discord cache and restarting
+  Tema personalizado para Discord inspirado en Albedo (Overlord), diseñado para transformar completamente la interfaz mediante CSS, transparencias, efectos glow y una estética oscura basada en tonos púrpura.
+</p>
 
 ---
 
-**Version:** 3.5.0  
-**Last Updated:** 2026
+## 🎯 Sobre el proyecto
+
+Albedo Discord Theme es un proyecto de personalización visual desarrollado para explorar las posibilidades de diseño y modificación de interfaces mediante CSS.
+
+Más allá de cambiar colores o añadir una imagen de fondo, el objetivo fue construir una identidad visual coherente inspirada en Albedo y el universo de Nazarick, manteniendo una experiencia elegante, inmersiva y funcional para el usuario.
+
+---
+
+## ✨ Características
+
+- Interfaz completamente personalizada.
+- Estética inspirada en Albedo y Nazarick.
+- Transparencias avanzadas.
+- Efectos glow personalizados.
+- Fondo temático integrado.
+- Colores púrpura personalizados.
+- Diseño visual consistente.
+- Mejor integración visual entre paneles.
+- Compatibilidad con BetterDiscord y ClearVision.
+
+---
+
+## 🖼️ Vista previa
+
+### Interfaz principal
+
+<p align="center">
+  <img src="assets/reference-mockup.png" alt="Preview" width="1000">
+</p>
+
+---
+
+## 🎨 Elementos personalizados
+
+- Barra lateral rediseñada.
+- Lista de canales personalizada.
+- Fondo temático integrado.
+- Área de mensajes adaptada al estilo visual.
+- Panel de miembros personalizado.
+- Transparencias y efectos glassmorphism.
+- Sombras y efectos glow.
+- Colores y detalles inspirados en Nazarick.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+### Desarrollo
+
+- CSS
+- BetterDiscord
+- ClearVision
+
+### Diseño
+
+- UI Customization
+- Glassmorphism
+- Visual Effects
+- Theming
+
+---
+
+## 📚 Lo que aprendí
+
+Durante el desarrollo de este proyecto trabajé en:
+
+- Personalización avanzada mediante CSS.
+- Diseño de interfaces visualmente consistentes.
+- Uso de transparencias y efectos visuales.
+- Adaptación de temas para aplicaciones existentes.
+- Organización visual y experiencia de usuario.
+- Creación de identidades gráficas coherentes.
+
+---
+
+## 🚀 Instalación
+
+### 1. Instalar BetterDiscord
+
+Descarga e instala BetterDiscord.
+
+### 2. Descargar el tema
+
+Obtén el archivo:
+
+```txt
+Albedo.theme.css
+```
+
+### 3. Copiar el archivo
+
+Mueve el archivo a la carpeta de temas de BetterDiscord.
+
+### 4. Activar el tema
+
+Abre Discord y sigue la ruta:
+
+```txt
+Configuración
+→ Themes
+→ Activar Albedo Theme
+```
+
+---
+
+## 📁 Estructura del proyecto
+
+```txt
+albedo-discord-theme
+│
+├── assets/
+│   ├── albedo-bg.png
+│   └── reference-mockup.png
+│
+├── Albedo.theme.css
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+## 💡 Motivación
+
+Este proyecto nació como una forma de combinar dos áreas que disfruto especialmente:
+
+- Diseño de interfaces.
+- Personalización visual.
+
+Fue una oportunidad para experimentar con CSS, mejorar habilidades de diseño UI y construir una experiencia visual única para Discord.
+
+---
+
+## 🔮 Posibles mejoras futuras
+
+- Variantes de color adicionales.
+- Más opciones de personalización.
+- Optimización visual para distintas resoluciones.
+- Nuevos estilos para paneles y componentes.
+
+---
+
+## ⭐ Soporte
+
+Si te gusta el proyecto puedes:
+
+- Dar una estrella al repositorio.
+- Compartirlo.
+- Utilizarlo como referencia para tus propios temas.
+
+---
+
+## ⚠️ Aviso
+
+Este proyecto fue creado con fines educativos y de aprendizaje.
+
+Discord, BetterDiscord, ClearVision y Overlord pertenecen a sus respectivos propietarios.
